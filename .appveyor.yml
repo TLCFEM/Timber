@@ -1,0 +1,39 @@
+image: Visual Studio 2019
+platform: x64
+skip_tags: true
+branches:
+  only:
+    - master
+init:
+  - ps: '$env:FMC_TAG=''fmc-''+(get-date -format "yyyyMMddHH")'
+build:
+  parallel: true
+  verbosity: minimal
+install:
+  - set QTDIR=C:\Qt\5.15.2\msvc2019_64
+  - set PATH=%QTDIR%\bin;%PATH%
+  - cmd: call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat"
+build_script:
+  - qmake -config release FMC.pro
+  - nmake
+after_build:
+  - windeployqt release/FMC.exe
+  - cmd: cp LICENSE release/LICENSE.txt
+  - cmd: cp README.md release/README.md
+  - rm release/*.obj
+  - rm release/*.cpp
+  - rm release/*.h
+  - rm release/*.res
+  - cd release
+  - 7z a FMC.zip *
+artifacts:
+  - path: release\FMC.zip
+    name: FMC
+deploy:
+  - provider: GitHub
+    tag: $(FMC_TAG)
+    release: $(FMC_TAG)
+    auth_token:
+      secure: aru/WS5nguUrXfgv5bOMpDecMMzKdcBvQe5FcgY6CWva4aCHezn+rEWM0b4mllHo
+    artifact: FMC
+    force_update: true
