@@ -5,7 +5,7 @@ branches:
   only:
     - master
 init:
-  - ps: '$env:FMC_TAG=''fmc-''+(get-date -format "yyyyMMddHH")'
+  - ps: '$env:FMC_TAG=''FMC-''+(get-date -format "yyyyMMddHH")'
 build:
   parallel: true
   verbosity: minimal

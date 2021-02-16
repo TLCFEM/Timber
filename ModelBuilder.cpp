@@ -135,6 +135,20 @@ void ModelBuilder::writeOutput() {
     }
 }
 
+void ModelBuilder::saveScreenshot() {
+    QFileDialog dialog(this);
+    dialog.setFileMode(QFileDialog::AnyFile);
+    dialog.setAcceptMode(QFileDialog::AcceptSave);
+    if(dialog.exec()) {
+        const auto filename = dialog.selectedFiles();
+        if(1 == filename.size()) {
+            QString path = filename.at(0);
+            if(!path.endsWith(".png") && !path.endsWith(".PNG")) path.append(".png");
+            ui->canvas->grabFramebuffer().save(path, "PNG");
+        }
+    }
+}
+
 void ModelBuilder::showAbout() {
     QDialog about(this);
 
@@ -211,7 +225,7 @@ void ModelBuilder::openFile() {
     ui->canvas->repaint();
 }
 
-void ModelBuilder::updateNodeList() const {
+void ModelBuilder::updateNodeList() {
     ui->box_node->clear();
     ui->box_node_i->clear();
     ui->box_node_j->clear();
@@ -230,7 +244,7 @@ void ModelBuilder::updateNodeList() const {
     ui->canvas->repaint();
 }
 
-void ModelBuilder::updateElementList() const {
+void ModelBuilder::updateElementList() {
     ui->box_element->clear();
     ui->box_element->addItem("");
 
@@ -266,7 +280,9 @@ void ModelBuilder::updateAnalysisSetting() {
     ui->input_absu->setText(QString::number(model.tolerance.at(5)));
 }
 
-void ModelBuilder::updateWallSectionList() const {
+void ModelBuilder::updateWallSectionList() {
+    ui->input_wall_section_tag->setText(QString::number(model.getNextWallSectionTag()));
+
     ui->box_wall_section->clear();
     for(const auto& I : model.getWallSectionTag()) { ui->box_wall_section->addItem(QString::number(I)); }
 
@@ -278,7 +294,9 @@ void ModelBuilder::updateWallSectionList() const {
     ui->canvas->repaint();
 }
 
-void ModelBuilder::updateFrameSectionList() const {
+void ModelBuilder::updateFrameSectionList() {
+    ui->input_frame_section_tag->setText(QString::number(model.getNextFrameSectionTag()));
+
     ui->box_frame_section->clear();
     for(const auto& I : model.getFrameSectionTag()) { ui->box_frame_section->addItem(QString::number(I)); }
 

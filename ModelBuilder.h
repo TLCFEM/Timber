@@ -49,6 +49,7 @@ public slots:
     void showAbout();
     void openFile();
     void writeOutput();
+    void saveScreenshot();
 
 private slots:
     void on_box_analysis_type_currentIndexChanged(int);
@@ -101,10 +102,10 @@ private:
     QVector<int> highlighted_group = QVector<int>();
     QVector<int> highlighted_element = QVector<int>(1, 0);
 
-    void updateNodeList() const;
-    void updateFrameSectionList() const;
-    void updateWallSectionList() const;
-    void updateElementList() const;
+    void updateNodeList();
+    void updateFrameSectionList();
+    void updateWallSectionList();
+    void updateElementList();
 
     void updateAnalysisSetting();
 };

@@ -18,6 +18,7 @@
 #include "ModelBuilder.h"
 
 #include <QApplication>
+#include <QScreen>
 #include <QSettings>
 #include <QStyleFactory>
 #include <QSurfaceFormat>
@@ -32,10 +33,13 @@ int main(int argc, char* argv[]) {
     app.setWindowIcon(QIcon(":/UC.ico"));
 
     auto font = QApplication::font();
-    font.setPointSize(9);
+    QRect rec = QGuiApplication::primaryScreen()->availableGeometry();
+    if(std::max(rec.height(), rec.width()) > 2000)
+        font.setPointSize(12);
+    else
+        font.setPointSize(9);
     QApplication::setFont(font);
 
-    /*
 #ifdef Q_OS_WIN
     QSettings settings("HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Themes\\Personalize", QSettings::NativeFormat);
     if(settings.value("AppsUseLightTheme") == 0) {
@@ -68,7 +72,6 @@ int main(int argc, char* argv[]) {
         FMC_DARK = true;
     }
 #endif
-*/
 
     ModelBuilder win;
     win.setWindowTitle("Frame Model Creator");
