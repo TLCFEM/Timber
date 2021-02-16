@@ -758,7 +758,7 @@ void ModelRenderer::mouseMoveEvent(QMouseEvent* event) {
 }
 
 void ModelRenderer::wheelEvent(QWheelEvent* event) {
-    setViewZT(View.ZT + View.ZT * static_cast<float>(event->angleDelta().y()) * .005f);
+    setViewZT(View.ZT + View.ZT * static_cast<float>(event->angleDelta().y()) * .002f);
 
     repaint();
 }
