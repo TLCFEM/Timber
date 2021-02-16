@@ -466,7 +466,7 @@ void ModelBuilder::on_button_add_node_clicked() {
 
     for(auto I = 0; I < nx; ++I)
         for(auto J = 0; J < ny; ++J)
-            for(auto K = 0; K < nz; ++K) model.add(tag++, Database::Node{QVector3D{x + dx * static_cast<float>(I), y + dy * static_cast<float>(J), z + dz * static_cast<float>(K)}});
+            for(auto K = 0; K < nz; ++K) model.add(model.getNextNodeTag(), Database::Node{QVector3D{x + dx * static_cast<float>(I), y + dy * static_cast<float>(J), z + dz * static_cast<float>(K)}});
 
     ui->input_node_tag->setText(QString::number(model.getNextNodeTag()));
 
@@ -590,7 +590,7 @@ void ModelBuilder::on_button_add_element_clicked() {
                 const auto new_i = nodei_tag + I * increix + J * increiy + K * increiz;
                 const auto new_j = nodej_tag + I * increjx + J * increjy + K * increjz;
 
-                model.add(tag++, Database::Element(sec_tag, QVector<int>{new_i, new_j}, type, orient));
+                model.add(model.getNextElementTag(), Database::Element(sec_tag, QVector<int>{new_i, new_j}, type, orient));
             }
 
     ui->input_element_tag->setText(QString::number(model.getNextElementTag()));
@@ -847,4 +847,30 @@ void ModelBuilder::on_box_wall_section_textHighlighted(const QString& F) {
     text += tr("\n\t%1\t%2\t%3\t%4\t%5\t%6").arg(t_para.at(12)).arg(t_para.at(13)).arg(t_para.at(14)).arg(t_para.at(15)).arg(t_para.at(16)).arg(t_para.at(17));
 
     ui->label_section_info_2->setText(text);
+}
+
+void ModelBuilder::on_box_element_textHighlighted(const QString& F) {
+    const auto ele_tag = F.toInt();
+
+    if(ele_tag == 0) return;
+
+    const auto& t_ele = model.get<Database::Element>(ele_tag);
+
+    QString text;
+
+    text = tr("Selected Element Info:\nTag:\t%1").arg(ele_tag);
+    text += tr("\nConnects nodes:\t%1\t%2").arg(t_ele.encoding.at(0)).arg(t_ele.encoding.at(1));
+
+    if(t_ele.type == Database::Element::Type::Wall) {
+        const auto& t_para = model.get<Database::WallSection>(t_ele.section_tag).parameter;
+        text += tr("\nWall Section Info:\nTag:\t%1\nParameters:\n\t%2\t%3\t%4\t%5\t%6\t%7").arg(t_ele.section_tag).arg(t_para.at(0)).arg(t_para.at(1)).arg(t_para.at(2)).arg(t_para.at(3)).arg(t_para.at(4)).arg(t_para.at(5));
+        text += tr("\n\t%1\t%2\t%3\t%4\t%5\t%6").arg(t_para.at(6)).arg(t_para.at(7)).arg(t_para.at(8)).arg(t_para.at(9)).arg(t_para.at(10)).arg(t_para.at(11));
+        text += tr("\n\t%1\t%2\t%3\t%4\t%5\t%6").arg(t_para.at(12)).arg(t_para.at(13)).arg(t_para.at(14)).arg(t_para.at(15)).arg(t_para.at(16)).arg(t_para.at(17));
+        text += tr("\nSection Orientation:\t%1").arg(t_ele.orient == 1 ? "X" : "Y");
+    } else {
+        const auto& t_para = model.get<Database::FrameSection>(t_ele.section_tag).parameter;
+        text += tr("\nFrame Section Info:\nTag:\t%1\nParameters:\n\t%2\t%3\t%4\t%5").arg(t_ele.section_tag).arg(t_para.at(0)).arg(t_para.at(1)).arg(t_para.at(2)).arg(t_para.at(3));
+    }
+
+    ui->label_section_info->setText(text);
 }

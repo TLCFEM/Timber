@@ -94,6 +94,8 @@ private slots:
     void on_input_wall_section_tag_textChanged(const QString&);
     void on_reset_model_clicked();
 
+    void on_box_element_textHighlighted(const QString &arg1);
+
 private:
     Ui::ModelBuilder* ui;
     Database model;
