@@ -52,44 +52,46 @@ public slots:
 
 private slots:
     void on_box_analysis_type_currentIndexChanged(int);
+    void on_box_element_currentTextChanged(const QString&);
+    void on_box_element_type_currentTextChanged(const QString&);
+    void on_box_frame_section_textHighlighted(const QString&);
+    void on_box_load_type_currentTextChanged(const QString&);
+    void on_box_modify_type_currentIndexChanged(int);
+    void on_box_section_2_textHighlighted(const QString&);
+    void on_box_section_textHighlighted(const QString&);
     void on_box_unit_currentIndexChanged(int);
-    void on_input_scale_textChanged(const QString&);
+    void on_box_wall_section_textHighlighted(const QString&);
+    void on_button_add_bc_clicked();
+    void on_button_add_element_clicked();
+    void on_button_add_frame_section_clicked();
+    void on_button_add_load_clicked();
+    void on_button_add_node_clicked();
+    void on_button_add_wall_section_clicked();
+    void on_button_change_section_clicked();
+    void on_button_clear_bc_clicked();
+    void on_button_clear_load_clicked();
+    void on_button_modify_node_clicked();
+    void on_button_remove_all_element_clicked();
+    void on_button_remove_element_clicked();
+    void on_button_remove_frame_section_clicked();
+    void on_button_remove_wall_section_clicked();
+    void on_button_split_element_clicked();
+    void on_input_absf_textChanged(const QString&);
+    void on_input_absu_textChanged(const QString&);
+    void on_input_absx_textChanged(const QString&);
     void on_input_damping_textChanged(const QString&);
+    void on_input_frame_section_tag_textChanged(const QString&);
     void on_input_qfx_textChanged(const QString&);
     void on_input_qfy_textChanged(const QString&);
     void on_input_qfz_textChanged(const QString&);
     void on_input_qwx_textChanged(const QString&);
     void on_input_qwy_textChanged(const QString&);
-    void on_box_modify_type_currentIndexChanged(int);
-    void on_button_split_element_clicked();
-    void on_button_remove_element_clicked();
-    void on_button_remove_all_element_clicked();
-    void on_button_modify_node_clicked();
-    void on_button_add_node_clicked();
-    void on_button_change_section_clicked();
-    void on_button_clear_bc_clicked();
-    void on_button_clear_load_clicked();
-    void on_button_add_bc_clicked();
-    void on_button_add_load_clicked();
-    void on_button_add_element_clicked();
-    void on_button_add_wall_section_clicked();
-    void on_button_add_frame_section_clicked();
-    void on_button_remove_wall_section_clicked();
-    void on_button_remove_frame_section_clicked();
-    void on_reset_model_clicked();
-    void on_box_element_type_currentTextChanged(const QString&);
-    void on_box_element_currentTextChanged(const QString&);
-    void on_box_load_type_currentTextChanged(const QString&);
     void on_input_relf_textChanged(const QString&);
-    void on_input_relx_textChanged(const QString&);
     void on_input_relu_textChanged(const QString&);
-    void on_input_absf_textChanged(const QString&);
-    void on_input_absx_textChanged(const QString&);
-    void on_input_absu_textChanged(const QString&);
-
-    void on_box_section_textHighlighted(const QString &arg1);
-
-    void on_box_section_2_textHighlighted(const QString &arg1);
+    void on_input_relx_textChanged(const QString&);
+    void on_input_scale_textChanged(const QString&);
+    void on_input_wall_section_tag_textChanged(const QString&);
+    void on_reset_model_clicked();
 
 private:
     Ui::ModelBuilder* ui;

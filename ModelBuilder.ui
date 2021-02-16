@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1200</width>
-    <height>800</height>
+    <height>900</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -51,7 +51,7 @@
         </property>
         <property name="minimumSize">
          <size>
-          <width>500</width>
+          <width>550</width>
           <height>500</height>
          </size>
         </property>
@@ -82,7 +82,7 @@
                  <property name="minimumSize">
                   <size>
                    <width>80</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
@@ -100,13 +100,13 @@
                 <widget class="QLineEdit" name="input_node_tag">
                  <property name="minimumSize">
                   <size>
-                   <width>50</width>
-                   <height>25</height>
+                   <width>80</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>80</width>
+                   <width>120</width>
                    <height>40</height>
                   </size>
                  </property>
@@ -122,13 +122,13 @@
                 <widget class="QLabel" name="label_incre">
                  <property name="minimumSize">
                   <size>
-                   <width>50</width>
-                   <height>25</height>
+                   <width>80</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>80</width>
+                   <width>120</width>
                    <height>40</height>
                   </size>
                  </property>
@@ -144,13 +144,13 @@
                 <widget class="QLabel" name="label_repeat_node">
                  <property name="minimumSize">
                   <size>
-                   <width>50</width>
-                   <height>25</height>
+                   <width>80</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>80</width>
+                   <width>120</width>
                    <height>40</height>
                   </size>
                  </property>
@@ -166,13 +166,13 @@
                 <widget class="QLabel" name="label_x">
                  <property name="minimumSize">
                   <size>
-                   <width>50</width>
-                   <height>25</height>
+                   <width>80</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>80</width>
+                   <width>120</width>
                    <height>40</height>
                   </size>
                  </property>
@@ -188,13 +188,13 @@
                 <widget class="QLineEdit" name="input_x">
                  <property name="minimumSize">
                   <size>
-                   <width>50</width>
-                   <height>25</height>
+                   <width>80</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>80</width>
+                   <width>120</width>
                    <height>40</height>
                   </size>
                  </property>
@@ -207,13 +207,13 @@
                 <widget class="QLineEdit" name="input_dx">
                  <property name="minimumSize">
                   <size>
-                   <width>50</width>
-                   <height>25</height>
+                   <width>80</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>80</width>
+                   <width>120</width>
                    <height>40</height>
                   </size>
                  </property>
@@ -226,13 +226,13 @@
                 <widget class="QLineEdit" name="input_nx">
                  <property name="minimumSize">
                   <size>
-                   <width>50</width>
-                   <height>25</height>
+                   <width>80</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>80</width>
+                   <width>120</width>
                    <height>40</height>
                   </size>
                  </property>
@@ -245,13 +245,13 @@
                 <widget class="QLabel" name="label_y">
                  <property name="minimumSize">
                   <size>
-                   <width>50</width>
-                   <height>25</height>
+                   <width>80</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>80</width>
+                   <width>120</width>
                    <height>40</height>
                   </size>
                  </property>
@@ -267,13 +267,13 @@
                 <widget class="QLineEdit" name="input_y">
                  <property name="minimumSize">
                   <size>
-                   <width>50</width>
-                   <height>25</height>
+                   <width>80</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>80</width>
+                   <width>120</width>
                    <height>40</height>
                   </size>
                  </property>
@@ -286,13 +286,13 @@
                 <widget class="QLineEdit" name="input_dy">
                  <property name="minimumSize">
                   <size>
-                   <width>50</width>
-                   <height>25</height>
+                   <width>80</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>80</width>
+                   <width>120</width>
                    <height>40</height>
                   </size>
                  </property>
@@ -305,13 +305,13 @@
                 <widget class="QLineEdit" name="input_ny">
                  <property name="minimumSize">
                   <size>
-                   <width>50</width>
-                   <height>25</height>
+                   <width>80</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>80</width>
+                   <width>120</width>
                    <height>40</height>
                   </size>
                  </property>
@@ -324,13 +324,13 @@
                 <widget class="QLabel" name="label_z">
                  <property name="minimumSize">
                   <size>
-                   <width>50</width>
-                   <height>25</height>
+                   <width>80</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>80</width>
+                   <width>120</width>
                    <height>40</height>
                   </size>
                  </property>
@@ -346,13 +346,13 @@
                 <widget class="QLineEdit" name="input_z">
                  <property name="minimumSize">
                   <size>
-                   <width>50</width>
-                   <height>25</height>
+                   <width>80</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>80</width>
+                   <width>120</width>
                    <height>40</height>
                   </size>
                  </property>
@@ -365,13 +365,13 @@
                 <widget class="QLineEdit" name="input_dz">
                  <property name="minimumSize">
                   <size>
-                   <width>50</width>
-                   <height>25</height>
+                   <width>80</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>80</width>
+                   <width>120</width>
                    <height>40</height>
                   </size>
                  </property>
@@ -384,13 +384,13 @@
                 <widget class="QLineEdit" name="input_nz">
                  <property name="minimumSize">
                   <size>
-                   <width>50</width>
-                   <height>25</height>
+                   <width>80</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>80</width>
+                   <width>120</width>
                    <height>40</height>
                   </size>
                  </property>
@@ -430,13 +430,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>30</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>40</width>
-                   <height>40</height>
+                   <width>60</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -451,14 +451,14 @@
                 <widget class="QComboBox" name="box_node">
                  <property name="minimumSize">
                   <size>
-                   <width>60</width>
-                   <height>25</height>
+                   <width>80</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>80</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                 </widget>
@@ -471,13 +471,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>45</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
                    <width>110</width>
-                   <height>40</height>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -496,13 +496,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>50</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
                    <width>55</width>
-                   <height>40</height>
+                   <height>50</height>
                   </size>
                  </property>
                 </widget>
@@ -515,13 +515,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>45</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
                    <width>110</width>
-                   <height>40</height>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -540,13 +540,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>50</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
                    <width>55</width>
-                   <height>40</height>
+                   <height>50</height>
                   </size>
                  </property>
                 </widget>
@@ -559,13 +559,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>45</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
                    <width>110</width>
-                   <height>40</height>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -584,18 +584,18 @@
                  <property name="minimumSize">
                   <size>
                    <width>50</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
                    <width>55</width>
-                   <height>40</height>
+                   <height>50</height>
                   </size>
                  </property>
                 </widget>
                </item>
-               <item row="0" column="6" colspan="2">
+               <item row="0" column="6" colspan="2" alignment="Qt::AlignHCenter">
                 <widget class="QPushButton" name="button_modify_node">
                  <property name="sizePolicy">
                   <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
@@ -605,14 +605,14 @@
                  </property>
                  <property name="minimumSize">
                   <size>
-                   <width>50</width>
-                   <height>25</height>
+                   <width>80</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>100</width>
-                   <height>40</height>
+                   <width>150</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -625,13 +625,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>180</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
                    <width>16777215</width>
-                   <height>40</height>
+                   <height>50</height>
                   </size>
                  </property>
                  <item>
@@ -699,14 +699,14 @@
                  </property>
                  <property name="minimumSize">
                   <size>
-                   <width>70</width>
-                   <height>25</height>
+                   <width>80</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>100</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -724,14 +724,14 @@
                  </property>
                  <property name="minimumSize">
                   <size>
-                   <width>60</width>
-                   <height>25</height>
+                   <width>80</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>80</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <item>
@@ -750,14 +750,14 @@
                 <widget class="QLabel" name="label_8">
                  <property name="minimumSize">
                   <size>
-                   <width>70</width>
-                   <height>25</height>
+                   <width>80</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>100</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -772,14 +772,14 @@
                 <widget class="QLineEdit" name="input_frame_section_tag">
                  <property name="minimumSize">
                   <size>
-                   <width>60</width>
-                   <height>25</height>
+                   <width>80</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>80</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -791,14 +791,14 @@
                 <widget class="QLabel" name="label_4">
                  <property name="minimumSize">
                   <size>
-                   <width>70</width>
-                   <height>25</height>
+                   <width>80</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>100</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -813,18 +813,18 @@
                 <widget class="QLineEdit" name="input_e">
                  <property name="minimumSize">
                   <size>
-                   <width>60</width>
-                   <height>25</height>
+                   <width>80</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>80</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
-                  <string>12.0</string>
+                  <string/>
                  </property>
                 </widget>
                </item>
@@ -835,14 +835,14 @@
                  </property>
                  <property name="minimumSize">
                   <size>
-                   <width>70</width>
-                   <height>25</height>
+                   <width>80</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>100</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -860,18 +860,18 @@
                  </property>
                  <property name="minimumSize">
                   <size>
-                   <width>60</width>
-                   <height>25</height>
+                   <width>80</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>80</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
-                  <string>10</string>
+                  <string/>
                  </property>
                 </widget>
                </item>
@@ -882,14 +882,14 @@
                  </property>
                  <property name="minimumSize">
                   <size>
-                   <width>70</width>
-                   <height>25</height>
+                   <width>80</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>100</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -907,18 +907,18 @@
                  </property>
                  <property name="minimumSize">
                   <size>
-                   <width>60</width>
-                   <height>25</height>
+                   <width>80</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>80</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
-                  <string>0.5</string>
+                  <string/>
                  </property>
                 </widget>
                </item>
@@ -929,14 +929,14 @@
                  </property>
                  <property name="minimumSize">
                   <size>
-                   <width>70</width>
-                   <height>25</height>
+                   <width>80</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>100</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -954,18 +954,18 @@
                  </property>
                  <property name="minimumSize">
                   <size>
-                   <width>60</width>
-                   <height>25</height>
+                   <width>80</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>80</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
-                  <string>10</string>
+                  <string/>
                  </property>
                 </widget>
                </item>
@@ -993,14 +993,14 @@
                 <widget class="QLineEdit" name="input_wall_section_tag">
                  <property name="minimumSize">
                   <size>
-                   <width>60</width>
-                   <height>25</height>
+                   <width>80</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>80</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -1018,14 +1018,14 @@
                  </property>
                  <property name="minimumSize">
                   <size>
-                   <width>70</width>
-                   <height>25</height>
+                   <width>80</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>100</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -1040,14 +1040,14 @@
                 <widget class="QLabel" name="label_9">
                  <property name="minimumSize">
                   <size>
-                   <width>70</width>
-                   <height>25</height>
+                   <width>80</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>100</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -1062,18 +1062,18 @@
                 <widget class="QLineEdit" name="input_ds">
                  <property name="minimumSize">
                   <size>
-                   <width>60</width>
-                   <height>25</height>
+                   <width>80</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>80</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
-                  <string>4.5</string>
+                  <string/>
                  </property>
                 </widget>
                </item>
@@ -1081,18 +1081,18 @@
                 <widget class="QLineEdit" name="input_es">
                  <property name="minimumSize">
                   <size>
-                   <width>60</width>
-                   <height>25</height>
+                   <width>80</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>80</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
-                  <string>200</string>
+                  <string/>
                  </property>
                 </widget>
                </item>
@@ -1100,14 +1100,14 @@
                 <widget class="QLabel" name="label_local_axisz">
                  <property name="minimumSize">
                   <size>
-                   <width>70</width>
-                   <height>25</height>
+                   <width>80</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>100</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -1122,14 +1122,14 @@
                 <widget class="QLabel" name="label_e">
                  <property name="minimumSize">
                   <size>
-                   <width>70</width>
-                   <height>25</height>
+                   <width>80</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>100</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -1150,14 +1150,14 @@
                  </property>
                  <property name="minimumSize">
                   <size>
-                   <width>70</width>
-                   <height>25</height>
+                   <width>80</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>100</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -1172,18 +1172,18 @@
                  </property>
                  <property name="minimumSize">
                   <size>
-                   <width>60</width>
-                   <height>25</height>
+                   <width>80</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>80</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
-                  <string>280</string>
+                  <string/>
                  </property>
                 </widget>
                </item>
@@ -1191,18 +1191,18 @@
                 <widget class="QLineEdit" name="input_dl">
                  <property name="minimumSize">
                   <size>
-                   <width>60</width>
-                   <height>25</height>
+                   <width>80</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>80</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
-                  <string>135</string>
+                  <string/>
                  </property>
                 </widget>
                </item>
@@ -1210,18 +1210,18 @@
                 <widget class="QLineEdit" name="input_ys">
                  <property name="minimumSize">
                   <size>
-                   <width>60</width>
-                   <height>25</height>
+                   <width>80</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>80</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
-                  <string>.45</string>
+                  <string/>
                  </property>
                 </widget>
                </item>
@@ -1229,14 +1229,14 @@
                 <widget class="QLabel" name="label_d">
                  <property name="minimumSize">
                   <size>
-                   <width>70</width>
-                   <height>25</height>
+                   <width>80</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>100</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -1254,14 +1254,14 @@
                  </property>
                  <property name="minimumSize">
                   <size>
-                   <width>70</width>
-                   <height>25</height>
+                   <width>80</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>100</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -1276,14 +1276,14 @@
                 <widget class="QLabel" name="label_local_axisx">
                  <property name="minimumSize">
                   <size>
-                   <width>70</width>
-                   <height>25</height>
+                   <width>80</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>100</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -1298,18 +1298,18 @@
                 <widget class="QLineEdit" name="input_th">
                  <property name="minimumSize">
                   <size>
-                   <width>60</width>
-                   <height>25</height>
+                   <width>80</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>80</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
-                  <string>5</string>
+                  <string/>
                  </property>
                 </widget>
                </item>
@@ -1321,14 +1321,14 @@
                 <widget class="QLabel" name="label_3">
                  <property name="minimumSize">
                   <size>
-                   <width>25</width>
-                   <height>25</height>
+                   <width>30</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>40</width>
-                   <height>30</height>
+                   <width>70</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -1343,14 +1343,14 @@
                 <widget class="QLabel" name="label">
                  <property name="minimumSize">
                   <size>
-                   <width>25</width>
-                   <height>25</height>
+                   <width>30</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>40</width>
-                   <height>30</height>
+                   <width>70</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -1365,14 +1365,14 @@
                 <widget class="QLabel" name="label_5">
                  <property name="minimumSize">
                   <size>
-                   <width>25</width>
-                   <height>25</height>
+                   <width>30</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>40</width>
-                   <height>30</height>
+                   <width>70</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -1387,14 +1387,14 @@
                 <widget class="QLabel" name="label_6">
                  <property name="minimumSize">
                   <size>
-                   <width>25</width>
-                   <height>25</height>
+                   <width>30</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>40</width>
-                   <height>30</height>
+                   <width>70</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -1409,14 +1409,14 @@
                 <widget class="QLabel" name="label_14">
                  <property name="minimumSize">
                   <size>
-                   <width>25</width>
-                   <height>25</height>
+                   <width>30</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>40</width>
-                   <height>30</height>
+                   <width>70</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -1431,14 +1431,14 @@
                 <widget class="QLabel" name="label_19">
                  <property name="minimumSize">
                   <size>
-                   <width>25</width>
-                   <height>25</height>
+                   <width>30</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>40</width>
-                   <height>30</height>
+                   <width>70</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -1453,14 +1453,14 @@
                 <widget class="QLabel" name="label_21">
                  <property name="minimumSize">
                   <size>
-                   <width>25</width>
-                   <height>25</height>
+                   <width>30</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>40</width>
-                   <height>30</height>
+                   <width>70</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -1475,18 +1475,18 @@
                 <widget class="QLineEdit" name="input_q0t">
                  <property name="minimumSize">
                   <size>
-                   <width>25</width>
-                   <height>25</height>
+                   <width>30</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>40</width>
-                   <height>30</height>
+                   <width>70</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
-                  <string>.25</string>
+                  <string/>
                  </property>
                 </widget>
                </item>
@@ -1494,18 +1494,18 @@
                 <widget class="QLineEdit" name="input_q1t">
                  <property name="minimumSize">
                   <size>
-                   <width>25</width>
-                   <height>25</height>
+                   <width>30</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>40</width>
-                   <height>30</height>
+                   <width>70</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
-                  <string>.002</string>
+                  <string/>
                  </property>
                 </widget>
                </item>
@@ -1513,18 +1513,18 @@
                 <widget class="QLineEdit" name="input_q2t">
                  <property name="minimumSize">
                   <size>
-                   <width>25</width>
-                   <height>25</height>
+                   <width>30</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>40</width>
-                   <height>30</height>
+                   <width>70</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
-                  <string>1.6</string>
+                  <string/>
                  </property>
                 </widget>
                </item>
@@ -1532,18 +1532,18 @@
                 <widget class="QLineEdit" name="input_xkt">
                  <property name="minimumSize">
                   <size>
-                   <width>25</width>
-                   <height>25</height>
+                   <width>30</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>40</width>
-                   <height>30</height>
+                   <width>70</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
-                  <string>.05</string>
+                  <string/>
                  </property>
                 </widget>
                </item>
@@ -1551,18 +1551,18 @@
                 <widget class="QLineEdit" name="input_dmaxt">
                  <property name="minimumSize">
                   <size>
-                   <width>25</width>
-                   <height>25</height>
+                   <width>30</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>40</width>
-                   <height>30</height>
+                   <width>70</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
-                  <string>50</string>
+                  <string/>
                  </property>
                 </widget>
                </item>
@@ -1570,18 +1570,18 @@
                 <widget class="QLineEdit" name="input_sdft">
                  <property name="minimumSize">
                   <size>
-                   <width>25</width>
-                   <height>25</height>
+                   <width>30</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>40</width>
-                   <height>30</height>
+                   <width>70</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
-                  <string>.3</string>
+                  <string/>
                  </property>
                 </widget>
                </item>
@@ -1589,14 +1589,14 @@
                 <widget class="QLabel" name="label_22">
                  <property name="minimumSize">
                   <size>
-                   <width>25</width>
-                   <height>25</height>
+                   <width>30</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>40</width>
-                   <height>30</height>
+                   <width>70</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -1611,18 +1611,18 @@
                 <widget class="QLineEdit" name="input_q0p">
                  <property name="minimumSize">
                   <size>
-                   <width>25</width>
-                   <height>25</height>
+                   <width>30</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>40</width>
-                   <height>30</height>
+                   <width>70</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
-                  <string>1</string>
+                  <string/>
                  </property>
                 </widget>
                </item>
@@ -1630,18 +1630,18 @@
                 <widget class="QLineEdit" name="input_q1p">
                  <property name="minimumSize">
                   <size>
-                   <width>25</width>
-                   <height>25</height>
+                   <width>30</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>40</width>
-                   <height>30</height>
+                   <width>70</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
-                  <string>2000</string>
+                  <string/>
                  </property>
                 </widget>
                </item>
@@ -1649,18 +1649,18 @@
                 <widget class="QLineEdit" name="input_q2p">
                  <property name="minimumSize">
                   <size>
-                   <width>25</width>
-                   <height>25</height>
+                   <width>30</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>40</width>
-                   <height>30</height>
+                   <width>70</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
-                  <string>2</string>
+                  <string/>
                  </property>
                 </widget>
                </item>
@@ -1668,18 +1668,18 @@
                 <widget class="QLineEdit" name="input_xkp">
                  <property name="minimumSize">
                   <size>
-                   <width>25</width>
-                   <height>25</height>
+                   <width>30</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>40</width>
-                   <height>30</height>
+                   <width>70</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
-                  <string>2000</string>
+                  <string/>
                  </property>
                 </widget>
                </item>
@@ -1687,18 +1687,18 @@
                 <widget class="QLineEdit" name="input_dmaxp">
                  <property name="minimumSize">
                   <size>
-                   <width>25</width>
-                   <height>25</height>
+                   <width>30</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>40</width>
-                   <height>30</height>
+                   <width>70</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
-                  <string>1000</string>
+                  <string/>
                  </property>
                 </widget>
                </item>
@@ -1706,18 +1706,18 @@
                 <widget class="QLineEdit" name="input_sdfp">
                  <property name="minimumSize">
                   <size>
-                   <width>25</width>
-                   <height>25</height>
+                   <width>30</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>40</width>
-                   <height>30</height>
+                   <width>70</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
-                  <string>0</string>
+                  <string/>
                  </property>
                 </widget>
                </item>
@@ -1746,7 +1746,7 @@
                  <property name="minimumSize">
                   <size>
                    <width>60</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
@@ -1768,12 +1768,12 @@
                  <property name="minimumSize">
                   <size>
                    <width>60</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>80</width>
+                   <width>120</width>
                    <height>40</height>
                   </size>
                  </property>
@@ -1784,7 +1784,7 @@
                  <property name="minimumSize">
                   <size>
                    <width>60</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
@@ -1803,7 +1803,7 @@
                  <property name="minimumSize">
                   <size>
                    <width>60</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
@@ -1825,12 +1825,12 @@
                  <property name="minimumSize">
                   <size>
                    <width>60</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>80</width>
+                   <width>120</width>
                    <height>40</height>
                   </size>
                  </property>
@@ -1841,7 +1841,7 @@
                  <property name="minimumSize">
                   <size>
                    <width>60</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
@@ -1858,6 +1858,20 @@
               </layout>
              </item>
             </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="Line" name="line_9">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_section_info_2">
+            <property name="text">
+             <string/>
+            </property>
            </widget>
           </item>
           <item>
@@ -1898,14 +1912,14 @@
                  </property>
                  <property name="minimumSize">
                   <size>
-                   <width>60</width>
+                   <width>80</width>
                    <height>25</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>90</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -1923,14 +1937,14 @@
                  </property>
                  <property name="minimumSize">
                   <size>
-                   <width>60</width>
+                   <width>80</width>
                    <height>25</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>90</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -1951,14 +1965,14 @@
                  </property>
                  <property name="minimumSize">
                   <size>
-                   <width>60</width>
+                   <width>80</width>
                    <height>25</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>90</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -1976,14 +1990,14 @@
                  </property>
                  <property name="minimumSize">
                   <size>
-                   <width>60</width>
+                   <width>80</width>
                    <height>25</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>90</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -2004,14 +2018,14 @@
                  </property>
                  <property name="minimumSize">
                   <size>
-                   <width>60</width>
+                   <width>80</width>
                    <height>25</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>90</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -2032,14 +2046,14 @@
                  </property>
                  <property name="minimumSize">
                   <size>
-                   <width>60</width>
+                   <width>80</width>
                    <height>25</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>90</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -2060,14 +2074,14 @@
                  </property>
                  <property name="minimumSize">
                   <size>
-                   <width>60</width>
+                   <width>80</width>
                    <height>25</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>90</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                 </widget>
@@ -2082,14 +2096,14 @@
                  </property>
                  <property name="minimumSize">
                   <size>
-                   <width>60</width>
+                   <width>80</width>
                    <height>25</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>90</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                 </widget>
@@ -2104,14 +2118,14 @@
                  </property>
                  <property name="minimumSize">
                   <size>
-                   <width>60</width>
+                   <width>80</width>
                    <height>25</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>90</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                 </widget>
@@ -2126,14 +2140,14 @@
                  </property>
                  <property name="minimumSize">
                   <size>
-                   <width>60</width>
+                   <width>80</width>
                    <height>25</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>90</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -2154,14 +2168,14 @@
                  </property>
                  <property name="minimumSize">
                   <size>
-                   <width>60</width>
+                   <width>80</width>
                    <height>25</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>90</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -2182,14 +2196,14 @@
                  </property>
                  <property name="minimumSize">
                   <size>
-                   <width>60</width>
+                   <width>80</width>
                    <height>25</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>90</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -2207,14 +2221,14 @@
                  </property>
                  <property name="minimumSize">
                   <size>
-                   <width>60</width>
+                   <width>80</width>
                    <height>25</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>90</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -2232,14 +2246,14 @@
                  </property>
                  <property name="minimumSize">
                   <size>
-                   <width>60</width>
+                   <width>80</width>
                    <height>25</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>90</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -2257,14 +2271,14 @@
                  </property>
                  <property name="minimumSize">
                   <size>
-                   <width>60</width>
+                   <width>80</width>
                    <height>25</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>90</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -2285,14 +2299,14 @@
                  </property>
                  <property name="minimumSize">
                   <size>
-                   <width>60</width>
+                   <width>80</width>
                    <height>25</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>90</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -2310,14 +2324,14 @@
                  </property>
                  <property name="minimumSize">
                   <size>
-                   <width>60</width>
+                   <width>80</width>
                    <height>25</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>90</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -2335,14 +2349,14 @@
                  </property>
                  <property name="minimumSize">
                   <size>
-                   <width>60</width>
+                   <width>80</width>
                    <height>25</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>90</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -2360,14 +2374,14 @@
                  </property>
                  <property name="minimumSize">
                   <size>
-                   <width>60</width>
+                   <width>80</width>
                    <height>25</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>90</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -2388,14 +2402,14 @@
                  </property>
                  <property name="minimumSize">
                   <size>
-                   <width>60</width>
+                   <width>80</width>
                    <height>25</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>90</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -2413,14 +2427,14 @@
                  </property>
                  <property name="minimumSize">
                   <size>
-                   <width>60</width>
+                   <width>80</width>
                    <height>25</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>90</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -2438,14 +2452,14 @@
                  </property>
                  <property name="minimumSize">
                   <size>
-                   <width>60</width>
+                   <width>80</width>
                    <height>25</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>90</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -2463,14 +2477,14 @@
                  </property>
                  <property name="minimumSize">
                   <size>
-                   <width>60</width>
+                   <width>80</width>
                    <height>25</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>90</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <item>
@@ -2497,14 +2511,14 @@
                  </property>
                  <property name="minimumSize">
                   <size>
-                   <width>60</width>
+                   <width>80</width>
                    <height>25</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>90</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <item>
@@ -2587,7 +2601,7 @@
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>70</width>
+                   <width>100</width>
                    <height>40</height>
                   </size>
                  </property>
@@ -2603,7 +2617,7 @@
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>70</width>
+                   <width>100</width>
                    <height>40</height>
                   </size>
                  </property>
@@ -2619,7 +2633,7 @@
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>70</width>
+                   <width>100</width>
                    <height>16777215</height>
                   </size>
                  </property>
@@ -2713,18 +2727,18 @@
             <layout class="QVBoxLayout" name="verticalLayout_10">
              <item>
               <layout class="QGridLayout" name="gridLayout_5">
-               <item row="0" column="0">
+               <item row="0" column="0" alignment="Qt::AlignHCenter">
                 <widget class="QLabel" name="label_node">
                  <property name="minimumSize">
                   <size>
-                   <width>0</width>
-                   <height>25</height>
+                   <width>40</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>16777215</width>
-                   <height>35</height>
+                   <width>60</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -2735,18 +2749,18 @@
                  </property>
                 </widget>
                </item>
-               <item row="0" column="1">
+               <item row="0" column="1" alignment="Qt::AlignHCenter">
                 <widget class="QLabel" name="label_increx">
                  <property name="minimumSize">
                   <size>
-                   <width>0</width>
-                   <height>25</height>
+                   <width>40</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>50</width>
-                   <height>35</height>
+                   <width>60</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -2757,18 +2771,18 @@
                  </property>
                 </widget>
                </item>
-               <item row="0" column="2">
+               <item row="0" column="2" alignment="Qt::AlignHCenter">
                 <widget class="QLabel" name="label_increy">
                  <property name="minimumSize">
                   <size>
-                   <width>0</width>
-                   <height>25</height>
+                   <width>40</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>50</width>
-                   <height>35</height>
+                   <width>60</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -2779,18 +2793,18 @@
                  </property>
                 </widget>
                </item>
-               <item row="0" column="3">
+               <item row="0" column="3" alignment="Qt::AlignHCenter">
                 <widget class="QLabel" name="label_increz">
                  <property name="minimumSize">
                   <size>
-                   <width>0</width>
-                   <height>25</height>
+                   <width>40</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>50</width>
-                   <height>35</height>
+                   <width>60</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -2801,18 +2815,18 @@
                  </property>
                 </widget>
                </item>
-               <item row="0" column="4">
+               <item row="0" column="4" alignment="Qt::AlignHCenter">
                 <widget class="QLabel" name="label_repeatx">
                  <property name="minimumSize">
                   <size>
-                   <width>0</width>
-                   <height>25</height>
+                   <width>40</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>50</width>
-                   <height>35</height>
+                   <width>60</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -2823,18 +2837,18 @@
                  </property>
                 </widget>
                </item>
-               <item row="0" column="5">
+               <item row="0" column="5" alignment="Qt::AlignHCenter">
                 <widget class="QLabel" name="label_repeaty">
                  <property name="minimumSize">
                   <size>
-                   <width>0</width>
-                   <height>25</height>
+                   <width>40</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>50</width>
-                   <height>35</height>
+                   <width>60</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -2845,18 +2859,18 @@
                  </property>
                 </widget>
                </item>
-               <item row="0" column="6">
+               <item row="0" column="6" alignment="Qt::AlignHCenter">
                 <widget class="QLabel" name="label_repeatz">
                  <property name="minimumSize">
                   <size>
-                   <width>0</width>
-                   <height>25</height>
+                   <width>40</width>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>50</width>
-                   <height>35</height>
+                   <width>60</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -2871,13 +2885,13 @@
                 <widget class="QComboBox" name="box_node_load">
                  <property name="minimumSize">
                   <size>
-                   <width>0</width>
+                   <width>70</width>
                    <height>25</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>80</width>
+                   <width>120</width>
                    <height>16777215</height>
                   </size>
                  </property>
@@ -2893,7 +2907,7 @@
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>50</width>
+                   <width>70</width>
                    <height>35</height>
                   </size>
                  </property>
@@ -2912,7 +2926,7 @@
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>50</width>
+                   <width>70</width>
                    <height>35</height>
                   </size>
                  </property>
@@ -2931,7 +2945,7 @@
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>50</width>
+                   <width>70</width>
                    <height>35</height>
                   </size>
                  </property>
@@ -2950,7 +2964,7 @@
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>50</width>
+                   <width>70</width>
                    <height>35</height>
                   </size>
                  </property>
@@ -2969,7 +2983,7 @@
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>50</width>
+                   <width>70</width>
                    <height>35</height>
                   </size>
                  </property>
@@ -2988,7 +3002,7 @@
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>50</width>
+                   <width>70</width>
                    <height>35</height>
                   </size>
                  </property>
@@ -3033,13 +3047,13 @@
                    <property name="minimumSize">
                     <size>
                      <width>30</width>
-                     <height>25</height>
+                     <height>30</height>
                     </size>
                    </property>
                    <property name="maximumSize">
                     <size>
                      <width>120</width>
-                     <height>35</height>
+                     <height>50</height>
                     </size>
                    </property>
                    <property name="toolTip">
@@ -3055,13 +3069,13 @@
                    <property name="minimumSize">
                     <size>
                      <width>30</width>
-                     <height>25</height>
+                     <height>30</height>
                     </size>
                    </property>
                    <property name="maximumSize">
                     <size>
                      <width>120</width>
-                     <height>35</height>
+                     <height>50</height>
                     </size>
                    </property>
                    <property name="toolTip">
@@ -3081,12 +3095,12 @@
                    <property name="minimumSize">
                     <size>
                      <width>40</width>
-                     <height>25</height>
+                     <height>30</height>
                     </size>
                    </property>
                    <property name="maximumSize">
                     <size>
-                     <width>70</width>
+                     <width>80</width>
                      <height>40</height>
                     </size>
                    </property>
@@ -3100,12 +3114,12 @@
                    <property name="minimumSize">
                     <size>
                      <width>40</width>
-                     <height>25</height>
+                     <height>30</height>
                     </size>
                    </property>
                    <property name="maximumSize">
                     <size>
-                     <width>70</width>
+                     <width>80</width>
                      <height>40</height>
                     </size>
                    </property>
@@ -3119,12 +3133,12 @@
                    <property name="minimumSize">
                     <size>
                      <width>40</width>
-                     <height>25</height>
+                     <height>30</height>
                     </size>
                    </property>
                    <property name="maximumSize">
                     <size>
-                     <width>70</width>
+                     <width>80</width>
                      <height>40</height>
                     </size>
                    </property>
@@ -3138,12 +3152,12 @@
                    <property name="minimumSize">
                     <size>
                      <width>40</width>
-                     <height>25</height>
+                     <height>30</height>
                     </size>
                    </property>
                    <property name="maximumSize">
                     <size>
-                     <width>70</width>
+                     <width>80</width>
                      <height>40</height>
                     </size>
                    </property>
@@ -3157,12 +3171,12 @@
                    <property name="minimumSize">
                     <size>
                      <width>40</width>
-                     <height>25</height>
+                     <height>30</height>
                     </size>
                    </property>
                    <property name="maximumSize">
                     <size>
-                     <width>70</width>
+                     <width>80</width>
                      <height>40</height>
                     </size>
                    </property>
@@ -3176,12 +3190,12 @@
                    <property name="minimumSize">
                     <size>
                      <width>40</width>
-                     <height>25</height>
+                     <height>30</height>
                     </size>
                    </property>
                    <property name="maximumSize">
                     <size>
-                     <width>70</width>
+                     <width>80</width>
                      <height>40</height>
                     </size>
                    </property>
@@ -3219,14 +3233,14 @@
                    </property>
                    <property name="minimumSize">
                     <size>
-                     <width>40</width>
-                     <height>25</height>
+                     <width>60</width>
+                     <height>30</height>
                     </size>
                    </property>
                    <property name="maximumSize">
                     <size>
-                     <width>80</width>
-                     <height>35</height>
+                     <width>120</width>
+                     <height>50</height>
                     </size>
                    </property>
                    <property name="toolTip">
@@ -3242,13 +3256,13 @@
                    <property name="minimumSize">
                     <size>
                      <width>50</width>
-                     <height>25</height>
+                     <height>30</height>
                     </size>
                    </property>
                    <property name="maximumSize">
                     <size>
-                     <width>85</width>
-                     <height>35</height>
+                     <width>120</width>
+                     <height>50</height>
                     </size>
                    </property>
                    <item>
@@ -3278,14 +3292,14 @@
                    </property>
                    <property name="minimumSize">
                     <size>
-                     <width>40</width>
-                     <height>25</height>
+                     <width>60</width>
+                     <height>30</height>
                     </size>
                    </property>
                    <property name="maximumSize">
                     <size>
-                     <width>80</width>
-                     <height>35</height>
+                     <width>120</width>
+                     <height>50</height>
                     </size>
                    </property>
                    <property name="toolTip">
@@ -3311,12 +3325,12 @@
                    <property name="minimumSize">
                     <size>
                      <width>30</width>
-                     <height>25</height>
+                     <height>30</height>
                     </size>
                    </property>
                    <property name="maximumSize">
                     <size>
-                     <width>40</width>
+                     <width>80</width>
                      <height>35</height>
                     </size>
                    </property>
@@ -3338,7 +3352,7 @@
                    </property>
                    <property name="maximumSize">
                     <size>
-                     <width>50</width>
+                     <width>80</width>
                      <height>35</height>
                     </size>
                    </property>
@@ -3358,12 +3372,12 @@
                    <property name="minimumSize">
                     <size>
                      <width>30</width>
-                     <height>25</height>
+                     <height>30</height>
                     </size>
                    </property>
                    <property name="maximumSize">
                     <size>
-                     <width>40</width>
+                     <width>80</width>
                      <height>35</height>
                     </size>
                    </property>
@@ -3385,7 +3399,7 @@
                    </property>
                    <property name="maximumSize">
                     <size>
-                     <width>50</width>
+                     <width>80</width>
                      <height>35</height>
                     </size>
                    </property>
@@ -3405,12 +3419,12 @@
                    <property name="minimumSize">
                     <size>
                      <width>30</width>
-                     <height>25</height>
+                     <height>30</height>
                     </size>
                    </property>
                    <property name="maximumSize">
                     <size>
-                     <width>40</width>
+                     <width>80</width>
                      <height>35</height>
                     </size>
                    </property>
@@ -3432,7 +3446,7 @@
                    </property>
                    <property name="maximumSize">
                     <size>
-                     <width>50</width>
+                     <width>80</width>
                      <height>35</height>
                     </size>
                    </property>
@@ -3452,12 +3466,12 @@
                    <property name="minimumSize">
                     <size>
                      <width>30</width>
-                     <height>25</height>
+                     <height>30</height>
                     </size>
                    </property>
                    <property name="maximumSize">
                     <size>
-                     <width>40</width>
+                     <width>80</width>
                      <height>35</height>
                     </size>
                    </property>
@@ -3479,7 +3493,7 @@
                    </property>
                    <property name="maximumSize">
                     <size>
-                     <width>50</width>
+                     <width>80</width>
                      <height>35</height>
                     </size>
                    </property>
@@ -3499,12 +3513,12 @@
                    <property name="minimumSize">
                     <size>
                      <width>30</width>
-                     <height>25</height>
+                     <height>30</height>
                     </size>
                    </property>
                    <property name="maximumSize">
                     <size>
-                     <width>40</width>
+                     <width>80</width>
                      <height>35</height>
                     </size>
                    </property>
@@ -3526,7 +3540,7 @@
                    </property>
                    <property name="maximumSize">
                     <size>
-                     <width>50</width>
+                     <width>80</width>
                      <height>35</height>
                     </size>
                    </property>
@@ -3546,12 +3560,12 @@
                    <property name="minimumSize">
                     <size>
                      <width>30</width>
-                     <height>25</height>
+                     <height>30</height>
                     </size>
                    </property>
                    <property name="maximumSize">
                     <size>
-                     <width>40</width>
+                     <width>80</width>
                      <height>35</height>
                     </size>
                    </property>
@@ -3573,7 +3587,7 @@
                    </property>
                    <property name="maximumSize">
                     <size>
-                     <width>50</width>
+                     <width>80</width>
                      <height>35</height>
                     </size>
                    </property>
@@ -3625,13 +3639,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>90</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
                    <width>100</width>
-                   <height>30</height>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -3647,13 +3661,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>70</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>100</width>
-                   <height>30</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <item>
@@ -3668,13 +3682,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>70</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
                    <width>100</width>
-                   <height>30</height>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -3690,13 +3704,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>70</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>100</width>
-                   <height>30</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <item>
@@ -3721,13 +3735,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>90</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
                    <width>100</width>
-                   <height>30</height>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="layoutDirection">
@@ -3746,13 +3760,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>70</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>100</width>
-                   <height>30</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -3765,13 +3779,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>70</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
                    <width>100</width>
-                   <height>30</height>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -3787,13 +3801,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>70</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>100</width>
-                   <height>30</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -3806,13 +3820,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>90</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
                    <width>100</width>
-                   <height>30</height>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="layoutDirection">
@@ -3828,10 +3842,16 @@
                  <property name="enabled">
                   <bool>false</bool>
                  </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>30</height>
+                  </size>
+                 </property>
                  <property name="maximumSize">
                   <size>
-                   <width>100</width>
-                   <height>16777215</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                 </widget>
@@ -3841,13 +3861,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>70</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
                    <width>100</width>
-                   <height>30</height>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -3860,10 +3880,16 @@
                </item>
                <item row="2" column="3">
                 <widget class="QLineEdit" name="input_damping">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>30</height>
+                  </size>
+                 </property>
                  <property name="maximumSize">
                   <size>
-                   <width>100</width>
-                   <height>16777215</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -3876,13 +3902,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>90</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
                    <width>100</width>
-                   <height>30</height>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -3898,13 +3924,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>70</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>100</width>
-                   <height>30</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -3917,13 +3943,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>70</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>100</width>
-                   <height>30</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -3936,13 +3962,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>70</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>100</width>
-                   <height>30</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -3955,13 +3981,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>90</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
                    <width>100</width>
-                   <height>30</height>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -3977,13 +4003,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>70</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>100</width>
-                   <height>30</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -3996,13 +4022,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>70</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>100</width>
-                   <height>30</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -4035,13 +4061,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>40</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
                    <width>80</width>
-                   <height>40</height>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -4057,13 +4083,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>40</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
                    <width>80</width>
-                   <height>40</height>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -4079,13 +4105,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>40</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
                    <width>80</width>
-                   <height>40</height>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -4101,13 +4127,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>60</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
                    <width>80</width>
-                   <height>40</height>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -4123,13 +4149,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>60</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>100</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -4142,13 +4168,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>60</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>100</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -4161,13 +4187,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>60</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>100</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -4180,13 +4206,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>60</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
                    <width>80</width>
-                   <height>40</height>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -4202,13 +4228,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>60</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>100</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -4221,13 +4247,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>60</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>100</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -4240,13 +4266,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>60</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>100</width>
-                   <height>40</height>
+                   <width>120</width>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -4287,28 +4313,6 @@
             <layout class="QVBoxLayout" name="verticalLayout_14">
              <item>
               <layout class="QGridLayout" name="gridLayout_11">
-               <item row="0" column="0">
-                <widget class="QPushButton" name="reset_model">
-                 <property name="minimumSize">
-                  <size>
-                   <width>65</width>
-                   <height>25</height>
-                  </size>
-                 </property>
-                 <property name="maximumSize">
-                  <size>
-                   <width>100</width>
-                   <height>30</height>
-                  </size>
-                 </property>
-                 <property name="toolTip">
-                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Delete all model components.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-                 </property>
-                 <property name="text">
-                  <string>Reset Model</string>
-                 </property>
-                </widget>
-               </item>
                <item row="0" column="1">
                 <widget class="QCheckBox" name="plot_axis">
                  <property name="minimumSize">
@@ -4331,69 +4335,25 @@
                  </property>
                 </widget>
                </item>
-               <item row="0" column="2">
-                <widget class="QCheckBox" name="plot_node_tag">
+               <item row="0" column="0">
+                <widget class="QPushButton" name="reset_model">
                  <property name="minimumSize">
                   <size>
-                   <width>80</width>
-                   <height>25</height>
-                  </size>
-                 </property>
-                 <property name="maximumSize">
-                  <size>
-                   <width>100</width>
-                   <height>16777215</height>
-                  </size>
-                 </property>
-                 <property name="text">
-                  <string>Node Tag</string>
-                 </property>
-                 <property name="checked">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="0" column="3">
-                <widget class="QCheckBox" name="plot_element_tag">
-                 <property name="minimumSize">
-                  <size>
-                   <width>80</width>
-                   <height>25</height>
-                  </size>
-                 </property>
-                 <property name="maximumSize">
-                  <size>
-                   <width>100</width>
-                   <height>16777215</height>
-                  </size>
-                 </property>
-                 <property name="text">
-                  <string>Element Tag</string>
-                 </property>
-                 <property name="checked">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item row="1" column="0">
-                <widget class="QPushButton" name="reset_view">
-                 <property name="minimumSize">
-                  <size>
-                   <width>65</width>
-                   <height>25</height>
-                  </size>
-                 </property>
-                 <property name="maximumSize">
-                  <size>
-                   <width>100</width>
+                   <width>70</width>
                    <height>30</height>
                   </size>
                  </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>140</width>
+                   <height>40</height>
+                  </size>
+                 </property>
                  <property name="toolTip">
-                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Reset to default view.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Delete all model components.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                  </property>
                  <property name="text">
-                  <string>Reset View</string>
+                  <string>Reset Model</string>
                  </property>
                 </widget>
                </item>
@@ -4419,6 +4379,28 @@
                  </property>
                 </widget>
                </item>
+               <item row="1" column="0">
+                <widget class="QPushButton" name="reset_view">
+                 <property name="minimumSize">
+                  <size>
+                   <width>70</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>140</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Reset to default view.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="text">
+                  <string>Reset View</string>
+                 </property>
+                </widget>
+               </item>
                <item row="1" column="2">
                 <widget class="QCheckBox" name="plot_brace">
                  <property name="minimumSize">
@@ -4441,7 +4423,7 @@
                  </property>
                 </widget>
                </item>
-               <item row="1" column="3">
+               <item row="0" column="2">
                 <widget class="QCheckBox" name="plot_wall">
                  <property name="minimumSize">
                   <size>
@@ -4457,6 +4439,50 @@
                  </property>
                  <property name="text">
                   <string>Wall</string>
+                 </property>
+                 <property name="checked">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="3">
+                <widget class="QCheckBox" name="plot_element_tag">
+                 <property name="minimumSize">
+                  <size>
+                   <width>80</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>120</width>
+                   <height>16777215</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>Element Tag</string>
+                 </property>
+                 <property name="checked">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="3">
+                <widget class="QCheckBox" name="plot_node_tag">
+                 <property name="minimumSize">
+                  <size>
+                   <width>80</width>
+                   <height>25</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>120</width>
+                   <height>16777215</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>Node Tag</string>
                  </property>
                  <property name="checked">
                   <bool>true</bool>
@@ -4488,13 +4514,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>70</width>
-                   <height>27</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>90</width>
-                   <height>30</height>
+                   <width>100</width>
+                   <height>40</height>
                   </size>
                  </property>
                  <property name="text">
@@ -4507,13 +4533,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>70</width>
-                   <height>27</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>90</width>
-                   <height>30</height>
+                   <width>100</width>
+                   <height>40</height>
                   </size>
                  </property>
                  <property name="text">
@@ -4526,13 +4552,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>70</width>
-                   <height>27</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>90</width>
-                   <height>30</height>
+                   <width>100</width>
+                   <height>40</height>
                   </size>
                  </property>
                  <property name="text">
@@ -4545,13 +4571,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>70</width>
-                   <height>27</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>90</width>
-                   <height>30</height>
+                   <width>100</width>
+                   <height>40</height>
                   </size>
                  </property>
                  <property name="text">
@@ -4564,13 +4590,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>70</width>
-                   <height>27</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>90</width>
-                   <height>30</height>
+                   <width>100</width>
+                   <height>40</height>
                   </size>
                  </property>
                  <property name="text">
@@ -4583,13 +4609,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>70</width>
-                   <height>27</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>90</width>
-                   <height>30</height>
+                   <width>100</width>
+                   <height>40</height>
                   </size>
                  </property>
                  <property name="text">
@@ -4602,13 +4628,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>70</width>
-                   <height>27</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>90</width>
-                   <height>30</height>
+                   <width>100</width>
+                   <height>40</height>
                   </size>
                  </property>
                  <property name="text">
@@ -4621,13 +4647,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>70</width>
-                   <height>27</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>90</width>
-                   <height>30</height>
+                   <width>100</width>
+                   <height>40</height>
                   </size>
                  </property>
                  <property name="text">
@@ -4640,13 +4666,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>70</width>
-                   <height>27</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>90</width>
-                   <height>30</height>
+                   <width>100</width>
+                   <height>40</height>
                   </size>
                  </property>
                  <property name="text">
@@ -4659,13 +4685,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>70</width>
-                   <height>27</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
-                   <width>90</width>
-                   <height>30</height>
+                   <width>100</width>
+                   <height>40</height>
                   </size>
                  </property>
                  <property name="text">
@@ -4704,13 +4730,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>60</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
                    <width>200</width>
-                   <height>40</height>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -4732,13 +4758,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>0</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
                    <width>16777215</width>
-                   <height>40</height>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="minimum">
@@ -4778,13 +4804,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>60</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
                    <width>200</width>
-                   <height>40</height>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -4806,13 +4832,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>0</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
                    <width>16777215</width>
-                   <height>40</height>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="minimum">
@@ -4852,13 +4878,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>60</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
                    <width>200</width>
-                   <height>40</height>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -4880,13 +4906,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>0</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
                    <width>16777215</width>
-                   <height>40</height>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="minimum">
@@ -4926,13 +4952,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>60</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
                    <width>200</width>
-                   <height>40</height>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -4954,13 +4980,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>0</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
                    <width>16777215</width>
-                   <height>40</height>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="minimum">
@@ -5000,13 +5026,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>60</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
                    <width>200</width>
-                   <height>40</height>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -5028,13 +5054,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>0</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
                    <width>16777215</width>
-                   <height>40</height>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="minimum">
@@ -5074,13 +5100,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>60</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
                    <width>200</width>
-                   <height>40</height>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -5102,13 +5128,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>0</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
                    <width>16777215</width>
-                   <height>40</height>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="minimum">
@@ -5148,13 +5174,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>60</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
                    <width>200</width>
-                   <height>40</height>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -5176,13 +5202,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>0</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
                    <width>16777215</width>
-                   <height>40</height>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="minimum">
@@ -5222,13 +5248,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>60</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
                    <width>200</width>
-                   <height>40</height>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -5250,13 +5276,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>0</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
                    <width>16777215</width>
-                   <height>40</height>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="minimum">
@@ -5296,13 +5322,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>60</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
                    <width>200</width>
-                   <height>40</height>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -5324,13 +5350,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>0</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
                    <width>16777215</width>
-                   <height>40</height>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="minimum">
@@ -5370,13 +5396,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>60</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
                    <width>200</width>
-                   <height>40</height>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -5398,13 +5424,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>0</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
                    <width>16777215</width>
-                   <height>40</height>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="minimum">
@@ -5444,13 +5470,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>60</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
                    <width>200</width>
-                   <height>40</height>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -5472,13 +5498,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>0</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
                    <width>16777215</width>
-                   <height>40</height>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="minimum">
@@ -5518,13 +5544,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>60</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
                    <width>200</width>
-                   <height>40</height>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="text">
@@ -5546,13 +5572,13 @@
                  <property name="minimumSize">
                   <size>
                    <width>0</width>
-                   <height>25</height>
+                   <height>30</height>
                   </size>
                  </property>
                  <property name="maximumSize">
                   <size>
                    <width>16777215</width>
-                   <height>40</height>
+                   <height>50</height>
                   </size>
                  </property>
                  <property name="minimum">
@@ -5890,10 +5916,7 @@
   <tabstop>reset_view</tabstop>
   <tabstop>plot_axis</tabstop>
   <tabstop>plot_frame</tabstop>
-  <tabstop>plot_node_tag</tabstop>
   <tabstop>plot_brace</tabstop>
-  <tabstop>plot_element_tag</tabstop>
-  <tabstop>plot_wall</tabstop>
   <tabstop>set_color_frame</tabstop>
   <tabstop>set_color_wall</tabstop>
   <tabstop>set_color_node</tabstop>

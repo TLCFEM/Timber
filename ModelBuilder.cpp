@@ -639,11 +639,15 @@ void ModelBuilder::on_reset_model_clicked() {
 
     updateNodeList();
     updateElementList();
+    updateFrameSectionList();
+    updateWallSectionList();
 
     ui->input_node_tag->setText("1");
     ui->input_frame_section_tag->setText("1");
     ui->input_wall_section_tag->setText("1");
     ui->input_element_tag->setText("1");
+    ui->label_section_info->clear();
+    ui->label_section_info_2->clear();
 }
 
 void ModelBuilder::on_box_element_type_currentTextChanged(const QString& F) {
@@ -742,10 +746,10 @@ void ModelBuilder::on_box_section_textHighlighted(const QString& F) {
 
     if(ui->box_element_type->currentText() != "Wall") {
         const auto& t_para = model.get<Database::FrameSection>(sec_tag).parameter;
-        text = tr("Selected Section Info:\nTag:\t%1\nParameters:\n\t%2\t%3\t%4\t%5").arg(sec_tag).arg(t_para.at(0)).arg(t_para.at(1)).arg(t_para.at(2)).arg(t_para.at(3));
+        text = tr("Selected Frame Section Info:\nTag:\t%1\nParameters:\n\t%2\t%3\t%4\t%5").arg(sec_tag).arg(t_para.at(0)).arg(t_para.at(1)).arg(t_para.at(2)).arg(t_para.at(3));
     } else {
         const auto& t_para = model.get<Database::WallSection>(sec_tag).parameter;
-        text = tr("Selected Section Info:\nTag:\t%1\nParameters:\n\t%2\t%3\t%4\t%5\t%6\t%7").arg(sec_tag).arg(t_para.at(0)).arg(t_para.at(1)).arg(t_para.at(2)).arg(t_para.at(3)).arg(t_para.at(4)).arg(t_para.at(5));
+        text = tr("Selected Wall Section Info:\nTag:\t%1\nParameters:\n\t%2\t%3\t%4\t%5\t%6\t%7").arg(sec_tag).arg(t_para.at(0)).arg(t_para.at(1)).arg(t_para.at(2)).arg(t_para.at(3)).arg(t_para.at(4)).arg(t_para.at(5));
         text += tr("\n\t%1\t%2\t%3\t%4\t%5\t%6").arg(t_para.at(6)).arg(t_para.at(7)).arg(t_para.at(8)).arg(t_para.at(9)).arg(t_para.at(10)).arg(t_para.at(11));
         text += tr("\n\t%1\t%2\t%3\t%4\t%5\t%6").arg(t_para.at(12)).arg(t_para.at(13)).arg(t_para.at(14)).arg(t_para.at(15)).arg(t_para.at(16)).arg(t_para.at(17));
     }
@@ -766,13 +770,63 @@ void ModelBuilder::on_box_section_2_textHighlighted(const QString& F) {
 
     if(ele_type != Database::Element::Type::Wall) {
         const auto& t_para = model.get<Database::FrameSection>(sec_tag).parameter;
-        text = tr("Selected Section Info:\nTag:\t%1\nParameters:\n\t%2\t%3\t%4\t%5").arg(sec_tag).arg(t_para.at(0)).arg(t_para.at(1)).arg(t_para.at(2)).arg(t_para.at(3));
+        text = tr("Selected Frame Section Info:\nTag:\t%1\nParameters:\n\t%2\t%3\t%4\t%5").arg(sec_tag).arg(t_para.at(0)).arg(t_para.at(1)).arg(t_para.at(2)).arg(t_para.at(3));
     } else {
         const auto& t_para = model.get<Database::WallSection>(sec_tag).parameter;
-        text = tr("Selected Section Info:\nTag:\t%1\nParameters:\n\t%2\t%3\t%4\t%5\t%6\t%7").arg(sec_tag).arg(t_para.at(0)).arg(t_para.at(1)).arg(t_para.at(2)).arg(t_para.at(3)).arg(t_para.at(4)).arg(t_para.at(5));
+        text = tr("Selected Wall Section Info:\nTag:\t%1\nParameters:\n\t%2\t%3\t%4\t%5\t%6\t%7").arg(sec_tag).arg(t_para.at(0)).arg(t_para.at(1)).arg(t_para.at(2)).arg(t_para.at(3)).arg(t_para.at(4)).arg(t_para.at(5));
         text += tr("\n\t%1\t%2\t%3\t%4\t%5\t%6").arg(t_para.at(6)).arg(t_para.at(7)).arg(t_para.at(8)).arg(t_para.at(9)).arg(t_para.at(10)).arg(t_para.at(11));
         text += tr("\n\t%1\t%2\t%3\t%4\t%5\t%6").arg(t_para.at(12)).arg(t_para.at(13)).arg(t_para.at(14)).arg(t_para.at(15)).arg(t_para.at(16)).arg(t_para.at(17));
     }
 
     ui->label_section_info->setText(text);
+}
+
+void ModelBuilder::on_input_wall_section_tag_textChanged(const QString&) {
+    ui->input_ls->clear();
+    ui->input_ds->clear();
+    ui->input_es->clear();
+    ui->input_ys->clear();
+    ui->input_th->clear();
+    ui->input_dl->clear();
+
+    ui->input_q0t->clear();
+    ui->input_q1t->clear();
+    ui->input_q2t->clear();
+    ui->input_xkt->clear();
+    ui->input_dmaxt->clear();
+    ui->input_sdft->clear();
+
+    ui->input_q0p->clear();
+    ui->input_q1p->clear();
+    ui->input_q2p->clear();
+    ui->input_xkp->clear();
+    ui->input_dmaxp->clear();
+    ui->input_sdfp->clear();
+}
+
+void ModelBuilder::on_input_frame_section_tag_textChanged(const QString&) {
+    ui->input_e->clear();
+    ui->input_g->clear();
+    ui->input_w->clear();
+    ui->input_h->clear();
+}
+
+void ModelBuilder::on_box_frame_section_textHighlighted(const QString& F) {
+    QString text;
+
+    const auto& t_para = model.get<Database::FrameSection>(F.toInt()).parameter;
+    text = tr("Selected Frame Section Info:\nTag:\t%1\nParameters:\n\t%2\t%3\t%4\t%5").arg(F.toInt()).arg(t_para.at(0)).arg(t_para.at(1)).arg(t_para.at(2)).arg(t_para.at(3));
+
+    ui->label_section_info_2->setText(text);
+}
+
+void ModelBuilder::on_box_wall_section_textHighlighted(const QString& F) {
+    QString text;
+
+    const auto& t_para = model.get<Database::WallSection>(F.toInt()).parameter;
+    text = tr("Selected Wall Section Info:\nTag:\t%1\nParameters:\n\t%2\t%3\t%4\t%5\t%6\t%7").arg(F.toInt()).arg(t_para.at(0)).arg(t_para.at(1)).arg(t_para.at(2)).arg(t_para.at(3)).arg(t_para.at(4)).arg(t_para.at(5));
+    text += tr("\n\t%1\t%2\t%3\t%4\t%5\t%6").arg(t_para.at(6)).arg(t_para.at(7)).arg(t_para.at(8)).arg(t_para.at(9)).arg(t_para.at(10)).arg(t_para.at(11));
+    text += tr("\n\t%1\t%2\t%3\t%4\t%5\t%6").arg(t_para.at(12)).arg(t_para.at(13)).arg(t_para.at(14)).arg(t_para.at(15)).arg(t_para.at(16)).arg(t_para.at(17));
+
+    ui->label_section_info_2->setText(text);
 }
