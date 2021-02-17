@@ -874,3 +874,25 @@ void ModelBuilder::on_box_element_textHighlighted(const QString& F) {
 
     ui->label_section_info->setText(text);
 }
+
+void ModelBuilder::on_check_accx_clicked(const bool checked) {
+    if(!checked) return;
+
+    QFileDialog dialog(this);
+    dialog.setFileMode(QFileDialog::ExistingFile);
+    if(dialog.exec()) {
+        const auto filename = dialog.selectedFiles();
+        if(1 == filename.size()) ui->input_accx->setText(filename.at(0).split("/").last());
+    }
+}
+
+void ModelBuilder::on_check_accy_clicked(const bool checked) {
+    if(!checked) return;
+
+    QFileDialog dialog(this);
+    dialog.setFileMode(QFileDialog::ExistingFile);
+    if(dialog.exec()) {
+        const auto filename = dialog.selectedFiles();
+        if(1 == filename.size()) ui->input_accy->setText(filename.at(0).split("/").last());
+    }
+}

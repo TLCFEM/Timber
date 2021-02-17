@@ -93,8 +93,9 @@ private slots:
     void on_input_scale_textChanged(const QString&);
     void on_input_wall_section_tag_textChanged(const QString&);
     void on_reset_model_clicked();
-
-    void on_box_element_textHighlighted(const QString &arg1);
+    void on_box_element_textHighlighted(const QString&);
+    void on_check_accx_clicked(bool);
+    void on_check_accy_clicked(bool);
 
 private:
     Ui::ModelBuilder* ui;
