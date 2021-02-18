@@ -96,6 +96,8 @@ private slots:
     void on_box_element_textHighlighted(const QString&);
     void on_check_accx_clicked(bool);
     void on_check_accy_clicked(bool);
+    void on_button_select_clicked();
+    void on_button_run_clicked();
 
 private:
     Ui::ModelBuilder* ui;

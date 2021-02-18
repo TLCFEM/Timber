@@ -896,3 +896,21 @@ void ModelBuilder::on_check_accy_clicked(const bool checked) {
         if(1 == filename.size()) ui->input_accy->setText(filename.at(0).split("/").last());
     }
 }
+
+void ModelBuilder::on_button_select_clicked() {
+    QFileDialog dialog(this);
+    dialog.setFileMode(QFileDialog::ExistingFile);
+    if(dialog.exec()) {
+        const auto filename = dialog.selectedFiles();
+        if(1 == filename.size()) ui->label_exe->setText(filename.at(0));
+    }
+}
+
+void ModelBuilder::on_button_run_clicked() {
+    const auto path = ui->label_exe->text();
+    if(path.isEmpty() || (!path.endsWith(".exe") && !path.endsWith(".EXE"))) {
+        QMessageBox msg(QMessageBox::Critical, tr("Error"), tr("Please selectc the correct executable first."), QMessageBox::Ok, this);
+        msg.exec();
+    } else {
+    }
+}
