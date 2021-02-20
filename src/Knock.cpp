@@ -40,10 +40,11 @@ int main(int argc, char* argv[]) {
         font.setPointSize(9);
     QApplication::setFont(font);
 
+    qApp->setStyle(QStyleFactory::create("fusion"));
+
 #ifdef Q_OS_WIN
     QSettings settings("HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Themes\\Personalize", QSettings::NativeFormat);
     if(settings.value("AppsUseLightTheme") == 0) {
-        qApp->setStyle(QStyleFactory::create("Fusion"));
         QPalette darkPalette;
         QColor darkColor = QColor(45, 45, 45);
         QColor disabledColor = QColor(209, 17, 65);

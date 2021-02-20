@@ -6,7 +6,7 @@ greaterThan(QT_MAJOR_VERSION, 5): QT += openglwidgets svgwidgets
 
 CONFIG += c++17
 
-RC_ICONS = UC.ico
+RC_ICONS = ../res/UC.ico
 
 # You can make your code fail to compile if it uses deprecated APIs.
 # In order to do so, uncomment the following line.
