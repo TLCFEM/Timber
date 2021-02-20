@@ -26,65 +26,63 @@
 bool FMC_DARK = false;
 
 int main(int argc, char* argv[]) {
-    QApplication app(argc, argv);
-    app.setApplicationName("Frame Model Creator");
-    app.setApplicationDisplayName("Frame Model Creator");
-    app.setOrganizationName("University of Canterbury");
-    app.setWindowIcon(QIcon(":/UC.ico"));
+	QApplication app(argc, argv);
+	QApplication::setApplicationName("Frame Model Creator");
+	QApplication::setApplicationDisplayName("Frame Model Creator");
+	QApplication::setOrganizationName("University of Canterbury");
+	QApplication::setWindowIcon(QIcon(":/UC.ico"));
 
-    auto font = QApplication::font();
-    QRect rec = QGuiApplication::primaryScreen()->availableGeometry();
-    if(std::max(rec.height(), rec.width()) > 2000)
-        font.setPointSize(12);
-    else
-        font.setPointSize(9);
-    QApplication::setFont(font);
+	auto font = QApplication::font();
+	const auto rec = QGuiApplication::primaryScreen()->availableGeometry();
+	if(std::max(rec.height(), rec.width()) > 2000) font.setPointSize(12);
+	else font.setPointSize(9);
+	QApplication::setFont(font);
 
-    qApp->setStyle(QStyleFactory::create("fusion"));
+	qApp->setStyle(QStyleFactory::create("fusion"));
 
 #ifdef Q_OS_WIN
-    QSettings settings("HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Themes\\Personalize", QSettings::NativeFormat);
-    if(settings.value("AppsUseLightTheme") == 0) {
-        QPalette darkPalette;
-        QColor darkColor = QColor(45, 45, 45);
-        QColor disabledColor = QColor(209, 17, 65);
-        darkPalette.setColor(QPalette::Window, darkColor);
-        darkPalette.setColor(QPalette::WindowText, Qt::white);
-        darkPalette.setColor(QPalette::Base, QColor(18, 18, 18));
-        darkPalette.setColor(QPalette::AlternateBase, darkColor);
-        darkPalette.setColor(QPalette::ToolTipBase, Qt::white);
-        darkPalette.setColor(QPalette::ToolTipText, Qt::white);
-        darkPalette.setColor(QPalette::Text, Qt::white);
-        darkPalette.setColor(QPalette::Disabled, QPalette::Text, disabledColor);
-        darkPalette.setColor(QPalette::Button, darkColor);
-        darkPalette.setColor(QPalette::ButtonText, Qt::white);
-        darkPalette.setColor(QPalette::Disabled, QPalette::ButtonText, disabledColor);
-        darkPalette.setColor(QPalette::BrightText, Qt::red);
-        darkPalette.setColor(QPalette::Link, QColor(42, 130, 218));
+	const QSettings settings(R"(HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize)", QSettings::NativeFormat);
+	if(settings.value("AppsUseLightTheme") == 0) {
+		QPalette darkPalette;
+		const auto darkColor = QColor(45, 45, 45);
+		const auto disabledColor = QColor(209, 17, 65);
+		darkPalette.setColor(QPalette::Window, darkColor);
+		darkPalette.setColor(QPalette::WindowText, Qt::white);
+		darkPalette.setColor(QPalette::Base, QColor(18, 18, 18));
+		darkPalette.setColor(QPalette::AlternateBase, darkColor);
+		darkPalette.setColor(QPalette::ToolTipBase, Qt::white);
+		darkPalette.setColor(QPalette::ToolTipText, Qt::white);
+		darkPalette.setColor(QPalette::Text, Qt::white);
+		darkPalette.setColor(QPalette::Disabled, QPalette::Text, disabledColor);
+		darkPalette.setColor(QPalette::Button, darkColor);
+		darkPalette.setColor(QPalette::ButtonText, Qt::white);
+		darkPalette.setColor(QPalette::Disabled, QPalette::ButtonText, disabledColor);
+		darkPalette.setColor(QPalette::BrightText, Qt::red);
+		darkPalette.setColor(QPalette::Link, QColor(42, 130, 218));
 
-        darkPalette.setColor(QPalette::Highlight, QColor(42, 130, 218));
-        darkPalette.setColor(QPalette::HighlightedText, Qt::black);
-        darkPalette.setColor(QPalette::Disabled, QPalette::HighlightedText, disabledColor);
+		darkPalette.setColor(QPalette::Highlight, QColor(42, 130, 218));
+		darkPalette.setColor(QPalette::HighlightedText, Qt::black);
+		darkPalette.setColor(QPalette::Disabled, QPalette::HighlightedText, disabledColor);
 
-        qApp->setPalette(darkPalette);
+		qApp->setPalette(darkPalette);
 
-        qApp->setStyleSheet("QToolTip { color: #ffffff; background-color: #2a82da; border: 1px solid white; }");
+		qApp->setStyleSheet("QToolTip { color: #ffffff; background-color: #2a82da; border: 1px solid white; }");
 
-        FMC_DARK = true;
-    }
+		FMC_DARK = true;
+	}
 #endif
 
-    ModelBuilder win;
-    win.setWindowTitle("Frame Model Creator");
+	ModelBuilder win;
+	win.setWindowTitle("Frame Model Creator");
 
-    QSurfaceFormat format;
-    format.setDepthBufferSize(24);
-    format.setStencilBufferSize(8);
-    format.setVersion(2, 0);
-    format.setProfile(QSurfaceFormat::CompatibilityProfile);
-    QSurfaceFormat::setDefaultFormat(format);
+	QSurfaceFormat format;
+	format.setDepthBufferSize(24);
+	format.setStencilBufferSize(8);
+	format.setVersion(2, 0);
+	format.setProfile(QSurfaceFormat::CompatibilityProfile);
+	QSurfaceFormat::setDefaultFormat(format);
 
-    win.show();
+	win.show();
 
-    return app.exec();
+	return QApplication::exec();
 }
