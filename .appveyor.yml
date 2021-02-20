@@ -14,7 +14,7 @@ install:
   - set PATH=%QTDIR%\bin;%PATH%
   - cmd: call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat"
 build_script:
-  - qmake -config release FMC.pro
+  - qmake -config release src/FMC.pro
   - nmake
 after_build:
   - windeployqt release/FMC.exe
