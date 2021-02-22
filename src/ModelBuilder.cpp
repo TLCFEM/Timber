@@ -861,7 +861,7 @@ void ModelBuilder::on_button_select_clicked() {
 
 void ModelBuilder::on_button_run_clicked() {
 	const auto path = ui->label_exe->text();
-	if(path.isEmpty() || !path.endsWith(".exe") && !path.endsWith(".EXE")) {
+    if(path.isEmpty() || (!path.endsWith(".exe") && !path.endsWith(".EXE"))) {
 		QMessageBox msg(QMessageBox::Critical, tr("Error"), tr("Please selectc the correct executable first."), QMessageBox::Ok, this);
 		msg.exec();
 	} else { }
