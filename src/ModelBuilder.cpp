@@ -158,7 +158,7 @@ void ModelBuilder::showAbout() {
 	about.setLayout(new QHBoxLayout(&about));
 	about.layout()->setSpacing(30);
 
-	QSvgWidget uc_logo(":/UCBLACK.svg");
+    QSvgWidget uc_logo(":res/UCBLACK.svg");
 	uc_logo.renderer()->setAspectRatioMode(Qt::KeepAspectRatio);
 	about.layout()->addWidget(&uc_logo);
 

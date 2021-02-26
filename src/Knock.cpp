@@ -30,7 +30,7 @@ int main(int argc, char* argv[]) {
 	QApplication::setApplicationName("Frame Model Creator");
 	QApplication::setApplicationDisplayName("Frame Model Creator");
 	QApplication::setOrganizationName("University of Canterbury");
-	QApplication::setWindowIcon(QIcon(":/UC.ico"));
+    QApplication::setWindowIcon(QIcon(":/../res/UC.ico"));
 
 	auto font = QApplication::font();
 	const auto rec = QGuiApplication::primaryScreen()->availableGeometry();
